@@ -1,0 +1,18 @@
+# Project-specific overrides
+# Configuration for git attributes
+# Language detection rules
+yarn.lock linguist-generated
+src/**/*.ts linguist-detectable
+*.map linguist-generated
+go.sum linguist-generated
+build/* linguist-vendored
+*.jpg binary
+src/*.ts linguist-detectable 
+
+docs/**/*.html linguist-vendored
+
+node_modules/* linguist-vendored
+
+* text=auto eol=lf
+
+# eof 9117fcd2
