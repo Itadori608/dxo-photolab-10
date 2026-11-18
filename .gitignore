@@ -1,0 +1,8 @@
+.env.local
+.next/
+yarn-error.log*
+coverage/
+*.tgz
+.env
+*.log
+.DS_Store
